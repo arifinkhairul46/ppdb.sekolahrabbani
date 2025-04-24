@@ -1,0 +1,143 @@
+/* Global styles */
+body {
+    font-family: 'Poppins' !important;
+    line-height: 1.5;
+    max-width: 500px;
+    margin: auto !important;
+    outline: auto;
+}
+
+.container {
+    padding: 1rem;
+}
+
+.section-1 {
+    background: linear-gradient(to right, #fff 70%, #E4FFFF 50%);
+}
+
+.section-4 {
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.section-5 {
+    background-image: linear-gradient( #EEDDFF, #FFF);
+}
+
+
+.zoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+    transform-origin:right top;
+    transition: .2s;
+}
+
+.frame{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 275px;
+    height: 360px;
+    border-radius: 1rem;
+    background-color: #f3efef;
+    object-fit: cover;
+}
+
+.btn-daftar {
+    position: absolute;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    text-align: center;
+}
+
+.card-1{
+    width: 70%;
+    border: #1592D0 2px solid;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.card-2{
+    width: 65%;
+    border: #FF3EAA 2px solid;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.form-control {
+    border-radius: 1rem !important;
+    border-color: #0094D7 !important;
+    --bs-border-width: 2px;
+}
+
+.form-control-group {
+    border: 0;
+    outline: 0;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    margin-left: 4px;
+    width: 68%;
+}
+
+.modal-dialog {
+    max-width: 480px !important;
+}
+
+.input-group {
+    max-width: 100%;
+    border: 2px solid #0094D7;
+    outline: 0;
+    border-radius: 1rem;
+    height: 100%;
+    text-align: left;
+    box-shadow: 0px 0px 1px 0px;
+  }
+
+
+  .select2 + .select2-container .select2-selection {
+    border: 2px solid #0094D7;
+    border-radius: 1rem;
+    border-color: #0094D7 !important;
+    min-height: 35px;
+
+  }
+
+.btn-mulai {
+    background-color: #704996 !important;
+    border: none !important;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.6rem !important;
+    cursor: pointer;
+}
+
+.btn-nominal {
+    background-image: linear-gradient(to right, #0094D7, #15E4FF);
+    color: white !important;
+    width: 31%;
+    border: none !important;
+    padding: 0.5rem 1rem;
+    border-bottom-left-radius: 2rem !important;
+    border-top-right-radius: 1rem !important;
+    border-bottom-right-radius: 1rem !important;
+    cursor: pointer;
+}
+
+.no_rekening {
+    background-color: #EFEFEF;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+.text-justify {
+    white-space: pre-wrap;
+    text-align: justify !important;
+    text-justify: inter-word !important;
+    font-size: 14px;
+}
