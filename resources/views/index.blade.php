@@ -19,9 +19,9 @@
                         <img src="{{asset('assets/images/5_star.png')}}" alt="5_star" width="30%" height="45%" >
                     </div>
 
-                    <h6 class="mb-1 mt-2" style="width: 70%"> Dr. H. Mochamad Rifki Romdhoni, S.Ag., M.M.Pd </h6>
-                    <p class="mb-2" style="font-size: 10px"> <i> Tim Penguji Kemenag </i> </p>
-                    <p style="text-align: justify; font-size: 13px"> “Alhamdulillah Untuk sekolah Rabbani hasil penilaian kami terkait dengan <b>hafalan qur'an sangat memuaskan </b> dan di atas standar, 
+                    <h6 class="mb-1 mt-2"><b> Dr. H. Mochamad Rifki Romdhoni, S.Ag., M.M.Pd </b> </h6>
+                    <p class="mb-2" style="font-size: 8px"> <i> Tim Penguji Kemenag </i> </p>
+                    <p style="text-align: justify; font-size: 10px"> “Alhamdulillah Untuk sekolah Rabbani hasil penilaian kami terkait dengan <b>hafalan qur'an sangat memuaskan </b> dan di atas standar, 
                         terlihat bukti keberhasilan bapak ibu <b>guru pembimbing tahfidz</b> di sekolah rabbani berhasil membimbing anak-anaknya.” 
                     </p>
                 </div>
@@ -39,9 +39,9 @@
                         <img src="{{asset('assets/images/5_star.png')}}" alt="5_star" width="30%" height="45%" >
                     </div>
 
-                    <h6 class="mb-1 mt-2" style="width: 70%"> Bambang Ariyanto </h6>
-                    <p class="mb-2" style="font-size: 10px"> <i> Kepala Bidang PPSD Dinas Pendidikan Kota Bandung </i> </p>
-                    <p style="text-align: justify; font-size: 13px"> “Saya tidak bisa menggambarkan dengan kata lain selain bombastis, karena sekolah rabbani 
+                    <h6 class="mb-1 mt-2"> <b> Bambang Ariyanto </b> </h6>
+                    <p class="mb-2" style="font-size: 8px"> <i> Kepala Bidang PPSD Dinas Pendidikan Kota Bandung </i> </p>
+                    <p style="text-align: justify; font-size: 10px"> “Saya tidak bisa menggambarkan dengan kata lain selain bombastis, karena sekolah rabbani 
                         <b>sudah melebihi target Kemendikbud.</b> Dari banyak sekolah yang mengundang saya, baru kali ini <b>saya merintihkan air mata.</b>” 
                     </p>
                 </div>
@@ -51,7 +51,7 @@
 
     <div class="container">
         <div class="d-flex">
-            <h3 style="margin-left: 1rem"> Ucap <b style="color: #30BAFF"> 3000 orang </b> lebih tentang Sekolah Rabbani </h3>
+            <h3 class="tittle" style="margin-left: 1rem"> Ucap <b style="color: #30BAFF"> 3000 orang </b> lebih tentang Sekolah Rabbani </h3>
             <img src="{{asset('assets/images/icon_basket.png')}}" alt="5_star" width="120" >
         </div>
     </div>
@@ -63,7 +63,7 @@
     </div>
 
     <div class="container">
-        <p style="font-size: 13px"> Oleh karena itu, <b>Sekolah Rabbani</b> menjadi tempat terbaik tumbuhnya generasi shalih dan cerdas. </p>
+        <p class="mx-3" style="font-size: 12px"> Oleh karena itu, <b>Sekolah Rabbani</b> menjadi tempat terbaik tumbuhnya generasi shalih dan cerdas. </p>
     </div>
 
     <div class="d-flex" style="align-items: center">
@@ -76,8 +76,8 @@
     </div>
 
     <div class="container">
+        <h2 class="mx-3 tittle"> <b> Program <span style="color: #30BAFF"> Unggulan </span> </b></h2>
         <div class="center">
-            <h2> <b> Program <span style="color: #30BAFF"> Unggulan </span> </b></h2>
             <div class="embed-responsive-short embed-responsive-16by9">
                 <iframe
                     src="https://www.youtube.com/embed/TtNjWS4iaRw?si=neEcCs7O6_4obRZk?autoplay=1"
@@ -105,7 +105,7 @@
         
 
         <div class="container">
-            <h1> <b> Kalau Ayah/Bunda sudah yakin, boleh langsung <span style="color:#FF3EAA"> daftar aja!! </span> </b> </h1>
+            <h1 class="tittle"> <b> Kalau Ayah/Bunda sudah yakin, boleh langsung <span style="color:#FF3EAA"> daftar aja!! </span> </b> </h1>
 
             <div class="frame mt-5">
                 <img class="center zoom" src="{{asset('assets/images/siswi_cover.png')}}" alt="siswi_cover" width="100%" >
@@ -113,7 +113,7 @@
 
         </div>
 
-        <h3> <b> Ayo Ayah/Bunda sekolahkan anaknya di sini!! </b> </h3>
+        <h4 class="mx-3" style="font-weight: 600"> <b> Ayo Ayah/Bunda sekolahkan anaknya di sini!! </b> </h4>
 
         <div class="keunggulan mt-3" style="font-size: 13px">
             <div class="d-flex" style="align-items: center">
@@ -144,7 +144,7 @@
     </div>
 
     <div class="container mt-3">
-        <h1 class="center"> <b> <span style="color: #30BAFF"> Fasilitas </span>  Nyaman </b> </h1>
+        <h1 class="ml-2 mb-3"> <b> <span style="color: #30BAFF"> Fasilitas </span>  Nyaman </b> </h1>
         <div class="d-flex justify-content-center">
             <img src="{{asset('assets/images/fasil_kelas.png')}}" alt="kelas" width="45%" >
             <img src="{{asset('assets/images/fasil_lift.png')}}" alt="lift"  width="45%" >
@@ -177,15 +177,17 @@
 
     <div class="section-7">
         <div class="container ">
-            <h1 class="txt-ml-2" style="width: 67%;"> <b> Lokasi Sekolah Rabbani <span style="color: #FF3EAA"> Mudah dijangkau </span> oleh Ayah/Bunda </b> </h1>
-            <span class="txt-ml-2" style="font-size: 12px" > Yuk kita lihat Sekolah Rabbani ada di mana saja! </span>
+            <img class="icon-rocket" src="{{asset('assets/images/icon_rocket.png')}}" alt="rocket"  width="30%" >
+            <img class="icon-cloud-3" src="{{asset('assets/images/icon_cloud_2.png')}}" alt="cloud"  width="30%" >
+            <h1 class="ml-2 tittle" style="width: 67%;"> <b> Lokasi Sekolah Rabbani <span style="color: #FF3EAA"> Mudah dijangkau </span> oleh Ayah/Bunda </b> </h1>
+            <span class="ml-2" style="font-size: 12px" > Yuk kita lihat Sekolah Rabbani ada di mana saja! </span>
         </div>
         <img class="center" src="{{asset('assets/images/lokasi_sekolah.png')}}" alt="lokasi_sekolah"  width="100%" >
     </div>
 
     <div class="section-8 mt-3">
         <div class="container mb-3">
-            <h1 class="txt-ml-2" style="width: 80%;"> <b> Ingin <span style="color: #FF3EAA"> merasakan asiknya </span> belajar di Sekolah Rabbani? </b> </h1>
+            <h1 class="ml-2" style="width: 80%;"> <b> Ingin <span style="color: #FF3EAA"> merasakan asiknya </span> belajar di Sekolah Rabbani? </b> </h1>
 
             <div class="d-flex" style="align-items: center">
                 <img class="bg-cloud" src="{{asset('assets/images/siswi_cover_2.png')}}" alt="lokasi_sekolah"  width="40%" >
@@ -198,7 +200,7 @@
 
             <button class="center my-3 text-white btn-trial-class" onclick="daftar()" style="text-decoration: none"> IKUTI TRIAL CLASSNYA  </button>
             
-            <h4 class="txt-ml-2 mt-4" style="width: 90%;"> <b> Disini Ayah/Bunda juga bisa <span style="color: #30BAFF"> mengawal perkembangan anak sambil belajar, </span> melalui program-program </b> </h4>
+            <h4 class="ml-2 mt-4 tittle" style="width: 90%;"> <b> Disini Ayah/Bunda juga bisa <span style="color: #30BAFF"> mengawal perkembangan anak sambil belajar, </span> melalui program-program </b> </h4>
             <div class="container-program">
                 <div class="center mx-3">
                     <img src="{{asset('assets/images/qp.png')}}" alt="qp"  width="100%" >
@@ -222,8 +224,9 @@
 
     <div class="section-6 text-white">
         <div class="container">
-            <h6 class="txt-ml-2"> Penutupan Pendaftaran </h6>
-            <h3 class="txt-ml-2"> <b> Gelombang 2 </b> </h3>
+            <img class="icon_rocket_2" src="{{asset('assets/images/icon_rocket_2.png')}}" alt="rocket-2"  width="20%" >
+            <h6 class="ml-2"> Penutupan Pendaftaran </h6>
+            <h3 class="ml-2"> <b> Gelombang 2 </b> </h3>
 
             <div class="d-flex mt-4" style="justify-content: space-evenly">
                 <div>
@@ -245,12 +248,12 @@
     <div class="section-9 mt-3">
         <div class="container">
             <div class="d-flex mb-3" style="align-items: center">
-                <h3 style="width: 70%"> <b> Apa yang <span style="color: #30BAFF"> Dikatakan </span> Orangtua terhadap Sekolah Rabbani </b></h3>
+                <h4 class="ml-2 tittle" style="width: 70%"> <b> Apa yang <span style="color: #30BAFF"> Dikatakan </span> Orangtua terhadap Sekolah Rabbani </b></h4>
                 <div class="center">
-                    <i style="width: 15%; color: #30BAFF" class="fa-solid fa-circle-chevron-left fa-lg"></i>
+                    <i style="width: 10%; color: #30BAFF" class="fa-solid fa-circle-chevron-left fa-lg"></i>
                 </div>
                 <div class="center">
-                    <i style="width: 15%; color: #30BAFF" class="fa-solid fa-circle-chevron-right fa-lg"></i>
+                    <i style="width: 10%; color: #30BAFF" class="fa-solid fa-circle-chevron-right fa-lg"></i>
                 </div>
             </div>
 
@@ -267,7 +270,7 @@
                             </div>
                         </div>
 
-                        <div class="card-body px-1" style="font-size: 8px">
+                        <div class="card-body py-1 px-1" style="font-size: 9px">
                             <span> {{$item->comments}}
                             </span>
                         </div>
@@ -288,8 +291,8 @@
             <h5 class="p-3 mx-3"> Daftar Sekarang & Dapatkan Info Lengkapnya! </h5>
 
             <a href="https://sekolahrabbani.sch.id/pendaftaran" target="_blank" style="text-decoration: none; color: black" class="center btn-daftar-sekolah my-3"> DAFTAR <b> SEKOLAH </b> </a>
-            <a href="#" style="text-decoration: none; color: black" class="center btn-trial"> DAFTAR <b> TRIAL CLASS </b> </a>
-            <a href="#" style="text-decoration: none; color: black" class="center btn-kunjungi my-3"> <b> KUNJUNGI </b> KAMI </a>
+            <a href="https://sekolahrabbani.sch.id/trial-class" style="text-decoration: none; color: black" class="center btn-trial"> DAFTAR <b> TRIAL CLASS </b> </a>
+            <a href="https://wa.me/+6285173273274?text=Assalamualaikum" style="text-decoration: none; color: black" class="center btn-kunjungi my-3"> <b> KUNJUNGI </b> KAMI </a>
 
         </div>
     </div>
@@ -297,10 +300,10 @@
     <div class="section-info">
         <div class="container">
             <h6 class="text-white"> Follow Our Social Media </h6>
-            <div class="d-flex mt-3" style="width: 30%; justify-content:space-around">
+            <div class="d-flex mt-3" style="width: 40%; justify-content:space-around">
                 <a href="https://www.instagram.com/sekolahrabbaniqlp/" target="_blank" > <i class="fa-brands fa-instagram fa-xl" style="color: #D732A8"></i> </a>
                 <a href="https://www.youtube.com/@SekolahRabbani" target="_blank"> <i class="fa-brands fa-youtube fa-xl" style="color: #D732A8"></i> </a>
-                <a href="https://www.tiktok.com/@SekolahRabbani" target="_blank" > <i class="fa-brands fa-tiktok fa-lg" style="color: #D732A8"></i> </a>
+                <a href="https://www.tiktok.com/@SekolahRabbanii" target="_blank" > <i class="fa-brands fa-tiktok fa-lg" style="color: #D732A8"></i> </a>
                 <a href="https://sekolahrabbani.sch.id/" target="_blank" > <i class="fa-solid fa-globe fa-lg" style="color: #D732A8"></i> </a>
             </div>
 
