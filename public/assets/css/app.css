@@ -4,7 +4,6 @@ body {
     line-height: 1.5;
     max-width: 500px;
     margin: auto !important;
-    outline: auto;
 }
 
 .container {
@@ -143,6 +142,50 @@ body {
     right: 0;
 }
 
+.icon-toga {
+    position: absolute;
+    top: 18%;
+    right: 17%;
+}
+
+.icon-toga-2 {
+    position: absolute;
+    bottom: -10%;
+    left: 22%;
+}
+
+.icon-cloud-1 {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    animation:
+    4s linear 0s infinite alternate toright;
+}
+
+.icon-cloud-2 {
+    position: absolute;
+    top: 32%;
+    right: 0;
+    animation:
+    3s linear 0s infinite alternate toright;
+}
+
+.embed-responsive {
+    display: flex;
+    justify-content: center;
+}
+
+.embed-responsive-short {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100% !important;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -152,6 +195,8 @@ body {
 }
 
 .card-1{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+                        url('../images/bg-paper.jpg');
     width: 70%;
     border: #1592D0 2px solid;
     border-radius: 1rem;
@@ -159,10 +204,45 @@ body {
 }
 
 .card-2{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+                        url('../images/bg-paper.jpg');
     width: 65%;
     border: #FF3EAA 2px solid;
     border-radius: 1rem;
     padding: 1rem;
+}
+
+.card {
+    max-width: 50% !important;
+    height: 50%;
+    padding: 0.75rem;
+    margin-bottom: 2rem;
+    border: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.row-card {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -ms-overflow-style: none; /* Internet Explorer and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.card-testi{
+    width: 200px !important;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    border: none !important;
+}
+
+.card-header {
+    border: none !important; 
+    background-color: white !important;
 }
 
 .form-control {
@@ -221,7 +301,7 @@ body {
 }
 
 .btn-daftar-sekolah {
-    width: 50%;
+    width: 55%;
     background-color: #FFD900 !important;
     border: none !important;
     padding: 1rem 1rem;
@@ -231,7 +311,7 @@ body {
 }
 
 .btn-trial {
-    width: 50%;
+    width: 55%;
     background-color: #D8AFFFCC !important;
     border: none !important;
     padding: 1rem 1rem;
@@ -241,7 +321,7 @@ body {
 }
 
 .btn-kunjungi {
-    width: 50%;
+    width: 55%;
     background-color: #87E9FFCC !important;
     border: none !important;
     padding: 1rem 1rem;
@@ -322,5 +402,14 @@ body {
     }
     to {
       --num: 305;
+    }
+  }
+
+  @keyframes toright {
+    from {
+      transform: translateX(1vw);
+    }
+    to {
+      transform: translateX(-1vw);
     }
   }

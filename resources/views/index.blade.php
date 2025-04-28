@@ -47,69 +47,75 @@
                 </div>
             </div>
         </div>
-
-        <div class="container">
-            <div class="d-flex">
-                <h2> Ucap <b style="color: #30BAFF"> 3000 orang </b> lebih tentang Sekolah Rabbani </h2>
-                <img src="{{asset('assets/images/icon_basket.png')}}" alt="5_star" width="120" >
-            </div>
-        </div>
     </div>
-
-    <div class="center">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="400" height="315" src="https://www.youtube.com/embed/WQD-hasjoxQ?si=F9ZgbDlG3gCCjBcJ?autoplay=1"  allow="autoplay" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-    </div>
-
-    
 
     <div class="container">
-        <p> Oleh karena itu, <b>Sekolah Rabbani</b> menjadi tempat terbaik tumbuhnya generasi shalih dan cerdas. </p>
-    </div>
-
-    <div class="d-flex">
-        <img src="{{asset('assets/images/image_sd_cover.png')}}" alt="sd_cover" width="50%" >
-        <div class="mt-2">
-            <p class="mt-3"> Gimana? Mau ikut ucapin buat Sekolah Rabbani juga? </p>
-            <h4 style="color: #E21387"> <b> Hmmm.. <br>Yakin ada Sekolah se-Seru ini? </b> </h4>
-            <p class="mt-3"> Coba Ayah/Bunda lihat deh video dibawah yang satu ini. </p>
+        <div class="d-flex">
+            <h3 style="margin-left: 1rem"> Ucap <b style="color: #30BAFF"> 3000 orang </b> lebih tentang Sekolah Rabbani </h3>
+            <img src="{{asset('assets/images/icon_basket.png')}}" alt="5_star" width="120" >
         </div>
     </div>
 
     <div class="center">
-        <h2> <b> Program <span style="color: #30BAFF"> Unggulan </span> </b></h2>
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="400" height="560"
-                src="https://www.youtube.com/embed/TtNjWS4iaRw?si=neEcCs7O6_4obRZk?autoplay=1"
-                title="YouTube video player"
-                frameborder="0"
-                allow="autoplay"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-            </iframe>
+            <iframe src="https://www.youtube.com/embed/WQD-hasjoxQ?si=F9ZgbDlG3gCCjBcJ?autoplay=1"  allow="autoplay" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
+    </div>
 
-        <p class="container" style="text-align: justify; font-size:14px"> Nah gimana? sudah liat kan videonya. Banyak lho program kegiatan untuk anak mengembangkan stimulasi sejak dini. 
-            Jangan lama-lama yaa...
-        </p>
+    <div class="container">
+        <p style="font-size: 13px"> Oleh karena itu, <b>Sekolah Rabbani</b> menjadi tempat terbaik tumbuhnya generasi shalih dan cerdas. </p>
+    </div>
+
+    <div class="d-flex" style="align-items: center">
+        <img src="{{asset('assets/images/image_sd_cover.png')}}" alt="sd_cover" width="50%" >
+        <div class="mt-2">
+            <p class="mt-3" style="font-size: 13px"> Gimana? Mau ikut ucapin buat Sekolah Rabbani juga? </p>
+            <h4 style="color: #E21387"> <b> Hmmm.. <br>Yakin ada Sekolah se-Seru ini? </b> </h4>
+            <p class="mt-3" style="font-size: 13px"> Coba Ayah/Bunda lihat deh video dibawah yang satu ini. </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="center">
+            <h2> <b> Program <span style="color: #30BAFF"> Unggulan </span> </b></h2>
+            <div class="embed-responsive-short embed-responsive-16by9">
+                <iframe
+                    src="https://www.youtube.com/embed/TtNjWS4iaRw?si=neEcCs7O6_4obRZk?autoplay=1"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="autoplay"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <p class="container" style="text-align: justify; font-size:14px"> Nah gimana? sudah liat kan videonya. Banyak lho program kegiatan untuk anak mengembangkan stimulasi sejak dini. 
+                Jangan lama-lama yaa...
+            </p>
+        </div>
     </div>
 
     <div class="section-4">
-            <img class="btn-daftar" src="{{asset('assets/images/btn-daftar.png')}}" onclick="daftar()" alt="btn_daftar" width="40%" >
+        
+        <img class="btn-daftar" src="{{asset('assets/images/btn-daftar.png')}}" onclick="daftar()" alt="btn_daftar" width="40%" >
+        <img class="icon-toga" src="{{asset('assets/images/icon_toga.png')}}" alt="icon_toga" width="25%" >
+        <img class="icon-cloud-1" src="{{asset('assets/images/icon_cloud.png')}}" alt="cloud-1" width="23%" >
+        <img class="icon-cloud-2" src="{{asset('assets/images/icon_cloud_2.png')}}" alt="cloud-2" width="18%" >
+        <img class="icon-toga-2" src="{{asset('assets/images/icon_toga.png')}}" alt="icon_toga" width="25%" >
+        
 
         <div class="container">
             <h1> <b> Kalau Ayah/Bunda sudah yakin, boleh langsung <span style="color:#FF3EAA"> daftar aja!! </span> </b> </h1>
 
-            <div class="frame">
-                <img class="mt-3 center zoom" src="{{asset('assets/images/siswi_cover.png')}}" alt="sd_cover" width="100%" >
+            <div class="frame mt-5">
+                <img class="center zoom" src="{{asset('assets/images/siswi_cover.png')}}" alt="siswi_cover" width="100%" >
             </div>
 
         </div>
 
         <h3> <b> Ayo Ayah/Bunda sekolahkan anaknya di sini!! </b> </h3>
 
-        <div class="keunggulan mt-3">
+        <div class="keunggulan mt-3" style="font-size: 13px">
             <div class="d-flex" style="align-items: center">
                 <img src="{{asset('assets/images/icon_book.png')}}" alt="book" width="8%" >
                 <span class="mx-2"> Sekolah yang berfokus mencetak para penghafal Al-Qur’an, pengusaha, dan pemimpin </span>
@@ -129,8 +135,8 @@
         <div class="container">
             <div>
                 <div class="mt-3 text-sec-5">
-                    <p> Ehh.. Ayah/Bunda masih penasaran ya sama Sekolah Rabbani? </p>
-                    <h2 class="mt-3 txt-nyaman" > Ini yang buat anak <span style="color: #FF3EAA"> gak mau pulang </span> dari Sekolah!! </h2>
+                    <p class="mb-2" style="font-size: 11px"> Ehh.. Ayah/Bunda masih penasaran ya sama <b> Sekolah Rabbani? </b> </p>
+                    <h2 class="mt-2 txt-nyaman" > Ini yang buat anak <span style="color: #FF3EAA"> gak mau pulang </span> dari Sekolah!! </h2>
                 </div>
                 <img class="img-sec-5" src="{{asset('assets/images/cover_nyaman.png')}}" alt="cover_5" width="60%" >
             </div>
@@ -148,12 +154,12 @@
             <img src="{{asset('assets/images/fasil_playground.png')}}" alt="lift"  width="45%" >
         </div>
 
-        <p class="mt-4 px-5" style="font-size: 13px"> Ga betah gimana coba? Fasilitas lengkap, bersih, dan nyaman yang 
+        <p class="mt-4 px-4" style="font-size: 12px; text-align:justify"> Ga betah gimana coba? Fasilitas lengkap, bersih, dan nyaman yang 
             menjadi anak-anak semakin semangat untuk belajarnya. 
         </p>
 
-        <h3 class="mt-4 px-5"> <b>Eitss.. Gak hanya itu lho!! </b> </h3>
-        <p class="px-5" style="font-size: 12px"> Insyaa Allah anak Ayah/Bunda akan menjadi salah satunya yang berprestasi seperti : </p>
+        <h3 class="mt-4 px-4"> <b>Eitss.. Gak hanya itu lho!! </b> </h3>
+        <p class="px-4" style="font-size: 12px"> Insyaa Allah anak Ayah/Bunda akan menjadi salah satunya yang berprestasi seperti : </p>
 
         
     </div>
@@ -192,7 +198,7 @@
 
             <button class="center my-3 text-white btn-trial-class" onclick="daftar()" style="text-decoration: none"> IKUTI TRIAL CLASSNYA  </button>
             
-            <h3 class="txt-ml-2 mt-4" style="width: 90%;"> <b> Disini Ayah/Bunda juga bisa <span style="color: #30BAFF"> mengawal perkembangan anak sambil belajar, </span> melalui program-program </b> </h3>
+            <h4 class="txt-ml-2 mt-4" style="width: 90%;"> <b> Disini Ayah/Bunda juga bisa <span style="color: #30BAFF"> mengawal perkembangan anak sambil belajar, </span> melalui program-program </b> </h4>
             <div class="container-program">
                 <div class="center mx-3">
                     <img src="{{asset('assets/images/qp.png')}}" alt="qp"  width="100%" >
@@ -238,13 +244,36 @@
 
     <div class="section-9 mt-3">
         <div class="container">
-            <div class="d-flex">
-                <h2 style="width: 70%"> <b> Apa yang <span style="color: #30BAFF"> Dikatakan </span> Orangtua terhadap Sekolah Rabbani </b></h2>
-
+            <div class="d-flex mb-3" style="align-items: center">
+                <h3 style="width: 70%"> <b> Apa yang <span style="color: #30BAFF"> Dikatakan </span> Orangtua terhadap Sekolah Rabbani </b></h3>
+                <div class="center">
+                    <i style="width: 15%; color: #30BAFF" class="fa-solid fa-circle-chevron-left fa-lg"></i>
+                </div>
+                <div class="center">
+                    <i style="width: 15%; color: #30BAFF" class="fa-solid fa-circle-chevron-right fa-lg"></i>
+                </div>
             </div>
 
-            <div class="d-flex">
-                Testimonial
+            <div class="row-card">
+                @foreach ($testimoni as $item)
+                    <div class="card card-testi shadow-sm">
+                        <div class="card-header px-2">
+                            <div class="d-flex" style="align-items:center">
+                                <img src="{{asset($item->image)}}" alt="pp_{{$item->name}}"  width="17%" height="auto" >
+                                <div style="margin-left: 4px">
+                                    <p class="mb-0" style="font-size: 10px"> <b> {{$item->name}} </b> </p>
+                                    <p class="mb-0" style="font-size: 9px; color:#30BAFF"> {{$item->position}} </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-body px-1" style="font-size: 8px">
+                            <span> {{$item->comments}}
+                            </span>
+                        </div>
+                    </div>
+                @endforeach
+
             </div>
         </div>
     </div>
@@ -275,7 +304,7 @@
                 <a href="https://sekolahrabbani.sch.id/" target="_blank" > <i class="fa-solid fa-globe fa-lg" style="color: #D732A8"></i> </a>
             </div>
 
-            <div class="d-grid-footer" style="width: 70%;">
+            <div class="d-grid-footer" style="width: 80%;">
                 <a href="#" style="text-decoration: none; color: white"> Home </a>
                 <a href="#" style="text-decoration: none; color: white"> Profile </a>
                 <a href="#" style="text-decoration: none; color: white"> Kurikulum </a>
