@@ -178,7 +178,7 @@
     <div class="section-7">
         <div class="container ">
             <img class="icon-rocket" src="{{asset('assets/images/icon_rocket.png')}}" alt="rocket"  width="30%" >
-            <img class="icon-cloud-3" src="{{asset('assets/images/icon_cloud_2.png')}}" alt="cloud"  width="30%" >
+            <img class="icon-cloud-3" src="{{asset('assets/images/icon_cloud_2.png')}}" alt="cloud"  width="22%" >
             <h1 class="ml-2 tittle" style="width: 67%;"> <b> Lokasi Sekolah Rabbani <span style="color: #FF3EAA"> Mudah dijangkau </span> oleh Ayah/Bunda </b> </h1>
             <span class="ml-2" style="font-size: 12px" > Yuk kita lihat Sekolah Rabbani ada di mana saja! </span>
         </div>
@@ -250,10 +250,14 @@
             <div class="d-flex mb-3" style="align-items: center">
                 <h4 class="ml-2 tittle" style="width: 70%"> <b> Apa yang <span style="color: #30BAFF"> Dikatakan </span> Orangtua terhadap Sekolah Rabbani </b></h4>
                 <div class="center">
-                    <i style="width: 10%; color: #30BAFF" class="fa-solid fa-circle-chevron-left fa-lg"></i>
+                    <button style="border: none; background:none" onclick="prevSlide()"> 
+                        <i style="width: 10%; color: #30BAFF" class="fa-solid fa-circle-chevron-left fa-lg"></i> 
+                    </button>
                 </div>
                 <div class="center">
-                    <i style="width: 10%; color: #30BAFF" class="fa-solid fa-circle-chevron-right fa-lg"></i>
+                    <button style="border: none; background:none" onclick="nextSlides()"> 
+                        <i style="width: 10%; color: #30BAFF" class="fa-solid fa-circle-chevron-right fa-lg"></i> 
+                    </button>
                 </div>
             </div>
 
@@ -355,6 +359,44 @@
             if (window.location.pathname === '/') {
                 document.getElementById('ppdb_daftar').scrollIntoView();
             }
+        }
+
+        let currentCard = 0;
+        let cards = document.querySelectorAll(".card");
+        let totalCards = cards.length ;
+
+        function nextCard() {
+
+            for (let i = 0; i < totalCards; i++) {
+                cards[i].style.transform = `translateX(${-100 * (currentCard + 1) }%)`;
+            }
+
+            for (let i = 0; i <= currentCard; i++) {
+                cards[i].style.transform = `translateX(${500 -(100*currentCard) }%)`;
+            }
+
+            (currentCard <= 4) ? currentCard++ : currentCard = 0;
+        }
+
+        function previousCard() {
+            if (currentCard === 0) {
+                currentCard = totalCards - 1;
+            } else {
+                currentCard--;
+            }
+
+            for (let i = 0; i < totalCards; i++) {
+                cards[i].style.transform = `translateX(${-100 * (currentCard - 1)}%)`;
+            }
+
+        }
+
+        function nextSlides() {
+            nextCard();
+        }
+
+        function prevSlide() {
+            previousCard();
         }
 
     </script>

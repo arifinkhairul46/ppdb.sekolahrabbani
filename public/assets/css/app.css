@@ -403,6 +403,14 @@ iframe {
         border-radius: 0.5rem;
     }
 
+    .icon-cloud-3 {
+        position: absolute;
+        top: 19%;
+        right: 0;
+        animation:
+        3s linear 0s infinite alternate toright;
+    }
+
   }
 
   @property --num {
