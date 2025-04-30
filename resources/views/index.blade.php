@@ -4,54 +4,13 @@
 
     <div class="container">
         <div class="section-1">
-            <img src="{{asset('assets/images/text_rsu.png')}}" alt="text_rabbani_school" width="60%" >
-
-            <div class="mt-3">
-                {{-- <button class="btn-mulai"> <b> Ayo Mulai </b> </button> --}}
-            </div>
-
-            <img src="{{asset('assets/images/cover.png')}}" alt="cover" width="100%" >
-            
-            <div class="d-flex">
-                <div class="card-1">
-                    <div class="d-flex" style="justify-content: space-between">
-                        <img src="{{asset('assets/images/m_rifki.png')}}" alt="p_m_rifki" width="15%" >
-                        <img src="{{asset('assets/images/5_star.png')}}" alt="5_star" width="30%" height="45%" >
-                    </div>
-
-                    <h6 class="mb-1 mt-2"><b> Dr. H. Mochamad Rifki Romdhoni, S.Ag., M.M.Pd </b> </h6>
-                    <p class="mb-2" style="font-size: 8px"> <i> Tim Penguji Kemenag </i> </p>
-                    <p style="text-align: justify; font-size: 10px"> “Alhamdulillah Untuk sekolah Rabbani hasil penilaian kami terkait dengan <b>hafalan qur'an sangat memuaskan </b> dan di atas standar, 
-                        terlihat bukti keberhasilan bapak ibu <b>guru pembimbing tahfidz</b> di sekolah rabbani berhasil membimbing anak-anaknya.” 
-                    </p>
-                </div>
-                <div class="" style="width:30%">
-                    <img src="{{asset('assets/images/card_3k.png')}}" alt="card_3k" width="120" >
-                    <img src="{{asset('assets/images/hand_hold_quran.png')}}" alt="icon_hand_quran" width="100" >
-                </div>
-            </div>
-            <div class="d-flex" style="align-items: center">
-                <img src="{{asset('assets/images/innovate_icon.png')}}" alt="cover" width="25%" >
-
-                <div class="card-2">
-                    <div class="d-flex" style="justify-content: space-between">
-                        <img src="{{asset('assets/images/bambang_ariyanto.png')}}" alt="bambang_ariyanto" width="15%" >
-                        <img src="{{asset('assets/images/5_star.png')}}" alt="5_star" width="30%" height="45%" >
-                    </div>
-
-                    <h6 class="mb-1 mt-2"> <b> Bambang Ariyanto </b> </h6>
-                    <p class="mb-2" style="font-size: 8px"> <i> Kepala Bidang PPSD Dinas Pendidikan Kota Bandung </i> </p>
-                    <p style="text-align: justify; font-size: 10px"> “Saya tidak bisa menggambarkan dengan kata lain selain bombastis, karena sekolah rabbani 
-                        <b>sudah melebihi target Kemendikbud.</b> Dari banyak sekolah yang mengundang saya, baru kali ini <b>saya merintihkan air mata.</b>” 
-                    </p>
-                </div>
-            </div>
+            <img src="{{asset('assets/images/home.png')}}" alt="home" width="100%" >
         </div>
     </div>
 
     <div class="container">
         <div class="d-flex">
-            <h3 class="tittle" style="margin-left: 1rem"> Ucap <b style="color: #30BAFF"> 3000 orang </b> lebih tentang Sekolah Rabbani </h3>
+            <h3 class="tittle" style="margin-left: 1rem"> Ucap <span style="color: #30BAFF"> 3000 orang </span> lebih tentang Sekolah Rabbani </h3>
             <img src="{{asset('assets/images/icon_basket.png')}}" alt="5_star" width="120" >
         </div>
     </div>
@@ -76,10 +35,11 @@
     </div>
 
     <div class="container">
-        <h2 class="mx-3 tittle"> <b> Program <span style="color: #30BAFF"> Unggulan </span> </b></h2>
+        <h2 class="mx-3 tittle"> Program <span style="color: #30BAFF"> Unggulan </span></h2>
         <div class="center">
             <div class="embed-responsive-short embed-responsive-16by9">
                 <iframe
+                    width="459"
                     src="https://www.youtube.com/embed/TtNjWS4iaRw?si=neEcCs7O6_4obRZk?autoplay=1"
                     title="YouTube video player"
                     frameborder="0"
@@ -89,7 +49,7 @@
                 </iframe>
             </div>
 
-            <p class="container" style="text-align: justify; font-size:14px"> Nah gimana? sudah liat kan videonya. Banyak lho program kegiatan untuk anak mengembangkan stimulasi sejak dini. 
+            <p class="container" style="text-align: justify; font-size:11px"> Nah gimana? sudah liat kan videonya. Banyak lho program kegiatan untuk anak mengembangkan stimulasi sejak dini. 
                 Jangan lama-lama yaa...
             </p>
         </div>
@@ -102,18 +62,19 @@
         <img class="icon-cloud-1" src="{{asset('assets/images/icon_cloud.png')}}" alt="cloud-1" width="23%" >
         <img class="icon-cloud-2" src="{{asset('assets/images/icon_cloud_2.png')}}" alt="cloud-2" width="18%" >
         <img class="icon-toga-2" src="{{asset('assets/images/icon_toga.png')}}" alt="icon_toga" width="25%" >
+        <img class="ellipse_purple" src="{{asset('assets/images/ellipse_purple.png')}}" alt="icon_ellipse_purple" width="25%" >
         
 
         <div class="container">
-            <h1 class="tittle"> <b> Kalau Ayah/Bunda sudah yakin, boleh langsung <span style="color:#FF3EAA"> daftar aja!! </span> </b> </h1>
+            <h1 class="tittle"> Kalau Ayah/Bunda sudah yakin, boleh langsung <span style="color:#FF3EAA"> daftar aja!! </span> </h1>
 
             <div class="frame mt-5">
-                <img class="center zoom" src="{{asset('assets/images/siswi_cover.png')}}" alt="siswi_cover" width="100%" >
+                <img class="center" src="{{asset('assets/images/siswi_cover.png')}}" alt="siswi_cover" width="100%" >
             </div>
 
         </div>
 
-        <h4 class="mx-3" style="font-weight: 600"> <b> Ayo Ayah/Bunda sekolahkan anaknya di sini!! </b> </h4>
+        <h5 class="mx-3" style="font-weight: 600; color: #333333"> Ayo Ayah/Bunda sekolahkan anaknya di sini!! </h5>
 
         <div class="keunggulan mt-3" style="font-size: 13px">
             <div class="d-flex" style="align-items: center">
@@ -129,22 +90,26 @@
                 <span class="mx-2"> Memiliki Ekskul Wajib (Berenang, Memanah, dan Berkuda) </span>
             </div>
         </div>
+        <img class="ellipse_pink" src="{{asset('assets/images/ellipse_pink.png')}}" alt="ellipse_pink" width="20%" >      
     </div>
 
     <div class="section-5">
         <div class="container">
-            <div>
+            <div style="position: relative">
+                <img class="icon_wajik" src="{{asset('assets/images/icon_wajik.png')}}" alt="wajik" width="5%" >      
+                <img class="icon_wajik_2" src="{{asset('assets/images/icon_wajik.png')}}" alt="wajik" width="3%" >      
                 <div class="mt-3 text-sec-5">
-                    <p class="mb-2" style="font-size: 11px"> Ehh.. Ayah/Bunda masih penasaran ya sama <b> Sekolah Rabbani? </b> </p>
-                    <h2 class="mt-2 txt-nyaman" > Ini yang buat anak <span style="color: #FF3EAA"> gak mau pulang </span> dari Sekolah!! </h2>
+                    <p class="mb-2" style="font-size: 11px"> Ehh.. Ayah/Bunda masih penasaran ya sama Sekolah Rabbani? </p>
+                    <h3 class="mt-2 txt-nyaman" > Ini yang buat anak <span style="color: #FF3EAA"> gak mau pulang </span> dari Sekolah!! </h3>
                 </div>
-                <img class="img-sec-5" src="{{asset('assets/images/cover_nyaman.png')}}" alt="cover_5" width="60%" >
+               
+                <img class="img-sec-5" src="{{asset('assets/images/cover_nyaman.png')}}" alt="cover_5" width="63%" >
             </div>
         </div>
     </div>
 
     <div class="container mt-3">
-        <h1 class="ml-2 mb-3"> <b> <span style="color: #30BAFF"> Fasilitas </span>  Nyaman </b> </h1>
+        <h1 class="ml-2 mb-3 tittle"> <span style="color: #30BAFF"> Fasilitas </span>  Nyaman </h1>
         <div class="d-flex justify-content-center">
             <img src="{{asset('assets/images/fasil_kelas.png')}}" alt="kelas" width="45%" >
             <img src="{{asset('assets/images/fasil_lift.png')}}" alt="lift"  width="45%" >
@@ -179,7 +144,7 @@
         <div class="container ">
             <img class="icon-rocket" src="{{asset('assets/images/icon_rocket.png')}}" alt="rocket"  width="30%" >
             <img class="icon-cloud-3" src="{{asset('assets/images/icon_cloud_2.png')}}" alt="cloud"  width="22%" >
-            <h1 class="ml-2 tittle" style="width: 67%;"> <b> Lokasi Sekolah Rabbani <span style="color: #FF3EAA"> Mudah dijangkau </span> oleh Ayah/Bunda </b> </h1>
+            <h1 class="ml-2 tittle" style="width: 67%;">Lokasi Sekolah Rabbani <span style="color: #FF3EAA"> Mudah dijangkau </span> oleh Ayah/Bunda  </h1>
             <span class="ml-2" style="font-size: 12px" > Yuk kita lihat Sekolah Rabbani ada di mana saja! </span>
         </div>
         <img class="center" src="{{asset('assets/images/lokasi_sekolah.png')}}" alt="lokasi_sekolah"  width="100%" >
@@ -200,7 +165,7 @@
 
             <button class="center my-3 text-white btn-trial-class" onclick="daftar()" style="text-decoration: none"> IKUTI TRIAL CLASSNYA  </button>
             
-            <h4 class="ml-2 mt-4 tittle" style="width: 90%;"> <b> Disini Ayah/Bunda juga bisa <span style="color: #30BAFF"> mengawal perkembangan anak sambil belajar, </span> melalui program-program </b> </h4>
+            <h4 class="ml-2 mt-4 tittle" style="width: 90%;"> Disini Ayah/Bunda juga bisa <span style="color: #30BAFF"> mengawal perkembangan anak sambil belajar, </span> melalui program-program </h4>
             <div class="container-program">
                 <div class="center mx-3">
                     <img src="{{asset('assets/images/qp.png')}}" alt="qp"  width="100%" >
@@ -246,9 +211,10 @@
     </div>
 
     <div class="section-9 mt-3">
+        <img class="icon_underscore" src="{{asset('assets/images/icon_underscore.png')}}" alt="underscore"  width="25%" >
         <div class="container">
             <div class="d-flex mb-3" style="align-items: center">
-                <h4 class="ml-2 tittle" style="width: 70%"> <b> Apa yang <span style="color: #30BAFF"> Dikatakan </span> Orangtua terhadap Sekolah Rabbani </b></h4>
+                <h4 class="ml-2 tittle" style="width: 70%; line-height: normal; color: black !important"> Apa yang <span style="color: #30BAFF"> Dikatakan </span> Orangtua terhadap Sekolah Rabbani </h4>
                 <div class="center">
                     <button style="border: none; background:none" onclick="prevSlide()"> 
                         <i style="width: 10%; color: #30BAFF" class="fa-solid fa-circle-chevron-left fa-lg"></i> 
@@ -291,7 +257,7 @@
         </div>
             
         <div class="center text-kelas mt-3">
-            <h3 class="p-3"> <b> Ayo Bergabung Bersama Sekolah Rabbani! Tempat Tumbuhnya Generasi Qurani dan Berprestasi! </b> </h3>
+            <h3 class="p-3" style="font-weight: 700"> Ayo Bergabung Bersama Sekolah Rabbani! Tempat Tumbuhnya Generasi Qurani dan Berprestasi! </h3>
             <h5 class="p-3 mx-3"> Daftar Sekarang & Dapatkan Info Lengkapnya! </h5>
 
             <a href="https://sekolahrabbani.sch.id/pendaftaran" target="_blank" style="text-decoration: none; color: black" class="center btn-daftar-sekolah my-3"> DAFTAR <b> SEKOLAH </b> </a>
@@ -312,14 +278,14 @@
             </div>
 
             <div class="d-grid-footer" style="width: 80%;">
-                <a href="#" style="text-decoration: none; color: white"> Home </a>
-                <a href="#" style="text-decoration: none; color: white"> Profile </a>
-                <a href="#" style="text-decoration: none; color: white"> Kurikulum </a>
-                <a href="#" style="text-decoration: none; color: white"> Karir </a>
-                <a href="#" style="text-decoration: none; color: white"> Review </a>
-                <a href="#" style="text-decoration: none; color: white"> Contact Us </a> 
-                <a href="#" style="text-decoration: none; color: white"> PPDB </a> 
-                <a href="#" style="text-decoration: none; color: white"> Email </a> 
+                <a href="#" style="text-decoration: none; color: white; font-size: 13px"> Home </a>
+                <a href="#" style="text-decoration: none; color: white; font-size: 13px"> Profile </a>
+                <a href="#" style="text-decoration: none; color: white; font-size: 13px"> Kurikulum </a>
+                <a href="#" style="text-decoration: none; color: white; font-size: 13px"> Karir </a>
+                <a href="#" style="text-decoration: none; color: white; font-size: 13px"> Review </a>
+                <a href="#" style="text-decoration: none; color: white; font-size: 13px"> Contact Us </a> 
+                <a href="#" style="text-decoration: none; color: white; font-size: 13px"> PPDB </a> 
+                <a href="#" style="text-decoration: none; color: white; font-size: 13px"> Email </a> 
             </div>
            
             <div class="center mt-5 text-white">
