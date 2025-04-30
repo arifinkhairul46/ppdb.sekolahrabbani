@@ -191,8 +191,11 @@
         <div class="container">
             <img class="icon_rocket_2" src="{{asset('assets/images/icon_rocket_2.png')}}" alt="rocket-2"  width="20%" >
             <h6 class="ml-2"> Penutupan Pendaftaran </h6>
-            <h3 class="ml-2"> <b> Gelombang 2 </b> </h3>
-
+            @if ($month == '04')
+                <h3 class="ml-2"> <b> Gelombang 2 </b> </h3>
+            @else 
+                <h3 class="ml-2"> <b> Gelombang 3 </b> </h3>
+            @endif
             <div class="d-flex mt-4" style="justify-content: space-evenly">
                 <div>
                     <h1 class="center" id="cd-hours">  </h1>
