@@ -16,8 +16,9 @@
     </div>
 
     <div class="center">
-        <div class="embed-responsive embed-responsive-16by9">
+        <div class="embed-responsive embed-responsive-16">
             <iframe src="https://www.youtube.com/embed/WQD-hasjoxQ?si=F9ZgbDlG3gCCjBcJ?autoplay=1"  allow="autoplay" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            {{-- <iframe width="1237" height="696" src="https://www.youtube.com/embed/WQD-hasjoxQ" title="Ucap 3000 Orang Tentang Sekolah Rabbani" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
         </div>
     </div>
 

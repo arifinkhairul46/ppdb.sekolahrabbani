@@ -234,9 +234,10 @@ body {
     3s linear 0s infinite alternate toright;
 }
 
-.embed-responsive {
+.embed-responsive-16 {
     display: flex;
     justify-content: center;
+    height: 280px;
 }
 
 .embed-responsive-short {
@@ -475,6 +476,12 @@ iframe {
         display: flex;
         justify-content: center;
         height: 690px;
+    }
+
+    .embed-responsive-16 {
+        display: flex;
+        justify-content: center;
+        height: 216px;
     }
 
   }
