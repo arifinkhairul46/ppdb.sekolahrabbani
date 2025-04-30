@@ -242,7 +242,7 @@ body {
 .embed-responsive-short {
     display: flex;
     justify-content: center;
-    height: 620px;
+    height: 819px;
 }
 
 iframe {
@@ -469,6 +469,12 @@ iframe {
         position: absolute;
         top: 11%;
         left: 60%;
+    }
+
+    .embed-responsive-short {
+        display: flex;
+        justify-content: center;
+        height: 690px;
     }
 
   }
