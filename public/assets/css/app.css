@@ -242,7 +242,7 @@ body {
 .embed-responsive-short {
     display: flex;
     justify-content: center;
-    height: 800px;
+    height: 620px;
 }
 
 iframe {
