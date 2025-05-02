@@ -401,7 +401,7 @@ iframe {
     font-size: 14px;
 }
 
-@media only screen and (max-width: 510px) {
+@media only screen and (max-width: 480px) {
     .img-sec-5 {
         position: relative;
         left: 139px;
@@ -475,7 +475,7 @@ iframe {
     .embed-responsive-short {
         display: flex;
         justify-content: center;
-        height: 690px;
+        height: 685px;
     }
 
     .embed-responsive-16 {

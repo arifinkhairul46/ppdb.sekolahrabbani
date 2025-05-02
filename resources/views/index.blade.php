@@ -40,7 +40,7 @@
             <div class="embed-responsive-short embed-responsive-16by9">
                 <iframe
                     width="459"
-                    src="https://www.youtube.com/embed/TtNjWS4iaRw?si=neEcCs7O6_4obRZk?version=&vq=hd720"
+                    src="https://www.youtube.com/embed/TtNjWS4iaRw?si=neEcCs7O6_4obRZk?version"
                     title="YouTube video player"
                     frameborder="0"
                     allow="autoplay"
