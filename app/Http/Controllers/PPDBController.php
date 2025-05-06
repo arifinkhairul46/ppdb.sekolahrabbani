@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Testimoni;
+use App\Models\VisitorPPDB;
 use Illuminate\Http\Request;
+use Stevebauman\Location\Facades\Location;
 
 class PPDBController extends Controller
 {
@@ -12,6 +14,16 @@ class PPDBController extends Controller
         $month = date('m');
 
         $testimoni = Testimoni::where('status',1)->get();
+
+         // Increment visitor count in database or cache
+         $position = Location::get();
+         
+         $add_user = VisitorPPDB::create([
+            'ip_address' => request()->ip(),
+            'user_agent' => request()->userAgent(),
+            'location' => $position->cityName,
+            'created_at' => now()
+         ]);
 
         return view('index', compact('testimoni', 'month'));
     }
