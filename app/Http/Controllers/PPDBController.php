@@ -16,7 +16,7 @@ class PPDBController extends Controller
         $testimoni = Testimoni::where('status',1)->get();
 
          // Increment visitor count in database or cache
-         $position = Location::get();
+         $position = Location::get(request()->ip());
          
          $add_user = VisitorPPDB::create([
             'ip_address' => request()->ip(),
