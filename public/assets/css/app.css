@@ -106,6 +106,12 @@ body {
     background-color: #30BAFF;
 }
 
+.text-prestasi {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
 .icon_rocket_2 {
     position: absolute;
     top: -15%;
@@ -484,6 +490,12 @@ iframe {
         height: 216px;
     }
 
+    .text-prestasi {
+        position: absolute;
+        bottom: 0;
+        left: 46%;
+    }
+
   }
 
   @property --num {
@@ -493,7 +505,7 @@ iframe {
   }
 
   .counter {
-    animation: counter 5s forwards ease-in-out;
+    animation: counter 5s forwards;
     counter-reset: num var(--num);
     font-family: 'roboto';
     font: 800 60px system-ui;
@@ -502,14 +514,25 @@ iframe {
   
   .counter::after {
     content: counter(num) '+';
+    animation: countdown 5s forwards;
+  }
+
+  @keyframes countdown {
+    from {
+      transform: translateY(100%);
+    }
+    
+    to {
+      transform: translateY(0);
+    }
   }
   
   @keyframes counter {
     from {
-      --num: 0;
+      --num: ;
     }
     to {
-      --num: 305;
+      --num: 5;
     }
   }
 
@@ -521,3 +544,73 @@ iframe {
       transform: translateX(-1vw);
     }
   }
+
+ol {
+  margin: 0;
+  padding: 0;
+}
+ol {
+  list-style: none;
+}
+
+.wrap {
+  text-align: center;
+  overflow: hidden;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  mix-blend-mode: luminosity;
+}
+.wrap ol {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 2px;
+  transform: translateY(0%);
+}
+
+.wrap ol {
+  line-height: 50px;
+}
+.wrap li {
+  height: 50px;
+}
+ol.units {
+  animation: units 2s steps(100) forwards;
+  animation-iteration-count: 10;
+}
+ol.tens {
+  animation: tens 20s steps(10) forwards;
+  animation-iteration-count: 1;
+}
+ol.hundreds {
+  animation: hundreds 20s steps(1) forwards;
+  animation-iteration-count: 1;
+}
+
+@keyframes units {
+  0% {
+    transform: translateY(-1000%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes tens {
+  0% {
+    transform: translateY(-1000%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes hundreds {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
