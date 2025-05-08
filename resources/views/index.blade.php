@@ -135,6 +135,9 @@
             <img src="{{asset('assets/images/icon_champions.png')}}" alt="champions"  width="40%" >
             <div class="center text-white">
                 <h1 class="counter"> </h1>
+                {{-- <div class="nums nums-hundreds" id="nums-hundreds"></div>
+                <div class="nums nums-ten" id="nums-ten"></div>
+                <div class="nums nums-one" id="nums-one"></div> --}}
                 <p> <b> Prestasi </b> Anak Rabbani </p>
             </div>
         </div>
@@ -265,7 +268,7 @@
 
             <a href="https://sekolahrabbani.sch.id/pendaftaran" target="_blank" style="text-decoration: none; color: black" class="center btn-daftar-sekolah my-3"> DAFTAR <b> SEKOLAH </b> </a>
             <a href="https://sekolahrabbani.sch.id/trial-class" style="text-decoration: none; color: black" class="center btn-trial"> DAFTAR <b> TRIAL CLASS </b> </a>
-            <a href="https://wa.me/+6285173273274?text=Assalamualaikum" style="text-decoration: none; color: black" class="center btn-kunjungi my-3"> <b> KUNJUNGI </b> KAMI </a>
+            <a href="https://wa.me/+6281818173000?text=Assalamualaikum" style="text-decoration: none; color: black" class="center btn-kunjungi my-3"> <b> KUNJUNGI </b> KAMI </a>
 
         </div>
     </div>
@@ -367,6 +370,52 @@
         function prevSlide() {
             previousCard();
         }
+
+        // function createNums(containerId) {
+        //     const container = document.getElementById(containerId);
+        //     for (let i = 0; i <= 9; i++) {
+        //     const next = (i + 1 >= 10) ? 0 : i + 1;
+        //     const div = document.createElement('div');
+        //     div.className = 'num';
+        //     div.setAttribute('data-num', i);
+        //     div.setAttribute('data-num-next', next);
+        //     container.appendChild(div);
+        //     }
+        // }
+
+        // createNums('nums-ten');
+        // createNums('nums-one');
+        
+        // function createDigitElements(containerId, digits, animationClass) {
+        //     const container = document.getElementById(containerId);
+        //     digits.forEach((digit, index) => {
+        //     const next = (digit + 1) % 10;
+        //     const div = document.createElement('div');
+        //     div.className = 'num';
+        //     div.setAttribute('data-num', digit);
+        //     div.setAttribute('data-num-next', next);
+        //     div.textContent = digit;
+        //     container.appendChild(div);
+        //     });
+        // }
+
+        // const start = 290;
+        // const end = 305;
+        // const ones = [], tens = [], hundreds = [];
+
+        // for (let i = start; i <= end; i++) {
+        //     const one = i % 10;
+        //     const ten = Math.floor((i % 100) / 10);
+        //     const hundred = Math.floor(i / 100);
+        //     ones.push(one);
+        //     tens.push(ten);
+        //     hundreds.push(hundred);
+        // }
+
+        // createDigitElements('nums-one', ones);
+        // createDigitElements('nums-ten', tens);
+        // createDigitElements('nums-hundreds', hundreds);
+
 
     </script>
 @endsection
