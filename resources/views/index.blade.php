@@ -303,7 +303,7 @@
 
             <a href="https://sekolahrabbani.sch.id/pendaftaran" target="_blank" style="text-decoration: none; color: black" class="center btn-daftar-sekolah my-3"> DAFTAR <b> SEKOLAH </b> </a>
             <a href="https://sekolahrabbani.sch.id/trial-class" style="text-decoration: none; color: black" class="center btn-trial"> DAFTAR <b> TRIAL CLASS </b> </a>
-            <a href="https://wa.me/+6281818173000?text=Assalamualaikum" style="text-decoration: none; color: black" class="center btn-kunjungi my-3"> <b> KUNJUNGI </b> KAMI </a>
+            <a href="https://web.whatsapp.com/send?phone={{$no_hp}}&text={{$message_url}}" target="_blank" style="text-decoration: none; color: black" class="center btn-kunjungi my-3"> <b> KUNJUNGI </b> KAMI </a>
 
         </div>
     </div>

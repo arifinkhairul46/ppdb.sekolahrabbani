@@ -25,6 +25,10 @@ class PPDBController extends Controller
             'created_at' => now()
          ]);
 
-        return view('index', compact('testimoni', 'month'));
+         $no_hp = '+6285173273274';
+         $message = "Assalamualaikum Warahmatullahi Wabarakatuh 🙏🏻😊";
+         $message_url = urlencode($message);
+
+        return view('index', compact('testimoni', 'month', 'no_hp', 'message_url'));
     }
 }
